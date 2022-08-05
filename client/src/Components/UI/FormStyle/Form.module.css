@@ -1,0 +1,57 @@
+/* MIHIR SHETH | 25-07-2022 */
+
+/* universal css styling for all form-type components */
+.formDiv {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 30px;
+  background-color: rgb(31, 31, 31);
+  width: 350px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formDiv label {
+  font-size: large;
+  color: #00c3ff;
+}
+
+.formDiv input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.formDiv button {
+  color: black;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 30px;
+  border: none;
+  /* background-color: #03396c; */
+  background: rgb(0, 172, 175);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 172, 175, 1) 35%,
+    rgba(101, 209, 188, 1) 100%
+  );
+  cursor: pointer;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.formDiv button:active {
+  /* background-color: #011f4b; */
+  background: rgb(101, 209, 188);
+  background: linear-gradient(
+    90deg,
+    rgba(101, 209, 188, 1) 35%,
+    rgba(0, 172, 175, 1) 100%
+  );
+}

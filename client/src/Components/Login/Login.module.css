@@ -1,0 +1,55 @@
+/* css file for form-specific styles */
+
+.warning {
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.passContainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.passInp {
+  padding-right: 33px !important;
+}
+
+/* icon perfectly centered within password input field */
+.passVisImg {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  padding: 8px 4px 8px 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.resBut {
+  color: whitesmoke;
+  margin-left: 4px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.resBut:hover {
+  color: #ff3939;
+}
+
+.msg h3 {
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 0 auto 15px auto;
+  text-align: center;
+}
+
+.msg p {
+  color: whitesmoke;
+  font-size: 15px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+}

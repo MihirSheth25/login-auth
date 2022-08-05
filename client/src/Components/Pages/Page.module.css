@@ -1,0 +1,14 @@
+/* common page styling css file for all three pages */
+
+/* reference => https://www.w3schools.com/css/css3_shadows_box.asp */
+.content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 30px;
+  background-color: rgba(0, 33, 36, 0.726);
+  width: 350px;
+  margin: 40px auto;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
